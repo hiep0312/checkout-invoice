@@ -16,7 +16,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Table(name = "shipment")
 
-public class Shipment {
+public class    Shipment {
     @Id
     @Column(name = "shipment_id")
     private String shipmentId;

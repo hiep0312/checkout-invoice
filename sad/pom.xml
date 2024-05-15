@@ -16,6 +16,7 @@
 		<module>discoveryservice</module>
 <!--		port: 8090-->
 		<module>invoiceservice</module>
+		<module>statisticalservice</module>
 		<module>domain</module>
 	</modules>
 

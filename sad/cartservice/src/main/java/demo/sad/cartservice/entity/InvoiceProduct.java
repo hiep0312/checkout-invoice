@@ -19,8 +19,8 @@ public class InvoiceProduct {
     @Column(name = "amount")
     private int amount;
 
-    @Column(name = "total_price")
-    private double totalPrice;
+    @Column(name = "total")
+    private double total;
 
     @ManyToOne
     @MapsId("invoiceId")
